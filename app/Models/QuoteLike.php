@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class QuoteLike extends Model
 {
-    protected $fillable = ['user_id'];
+    protected $fillable = ['user_id', 'ip'];
 }
